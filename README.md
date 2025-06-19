@@ -1,4 +1,6 @@
 # CNN-LSTM Intrusion Detection System - Pseudocode
+> Note:
+This is my final project to obtain my Bachelor of Computer Science. The architecture was trained & tested on Google Colab with T4 GPU.
 
 ## 1. INITIALIZATION AND IMPORTS
 ```
