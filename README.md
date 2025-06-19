@@ -1,6 +1,6 @@
 # CNN-LSTM Intrusion Detection System - Pseudocode
 > Note:
-> This is my final project to obtain my Bachelor of Computer Science. The architecture was trained & tested on Google Colab with T4 GPU.
+> This is my final project to obtain my Bachelor of Computer Science. The architecture was trained & tested on Google Colab with T4 GPU using UNSW-NB15 dataset.
 >
 > The article for this research has been published on [it's going to be published in August 2025]
 
