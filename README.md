@@ -1,4 +1,5 @@
 # CNN-LSTM Intrusion Detection System - Pseudocode
+
 > Note:
 > This is my final project to obtain my Bachelor of Computer Science. The architecture was trained & tested on Google Colab with T4 GPU using UNSW-NB15 dataset.
 >
@@ -236,3 +237,41 @@ BEGIN Visualization
     DISPLAY plots
 END
 ```
+
+## 9. PROGRAM STRUCTURE OVERVIEW
+```
+BEGIN Main Program Flow
+    1. EXECUTE DataPreprocessing
+    2. EXECUTE DataPreparation
+    3. EXECUTE ModelDefinition
+    4. EXECUTE ModelSetup
+    5. EXECUTE Training
+    6. EXECUTE Evaluation
+    7. EXECUTE Visualization
+    
+    PRINT "Program completed successfully"
+END Program
+```
+
+# Key Components Summary:
+
+## Data Processing Pipeline:
+- **Input**: Multiple CSV files containing network traffic data
+- **Processing**: Categorical encoding, duplicate removal, class balancing
+- **Output**: Normalized, balanced dataset ready for deep learning
+
+## Model Architecture:
+- **CNN Layers**: Extract local patterns from network traffic features
+- **LSTM Layers**: Capture temporal dependencies and sequential patterns
+- **Regularization**: L2 regularization, BatchNormalization, Dropout
+- **Output**: Binary classification (Benign vs Attack)
+
+## Training Strategy:
+- **Optimization**: Adam optimizer with adaptive learning rate
+- **Callbacks**: Early stopping, learning rate reduction, model checkpointing
+- **Validation**: 20% validation split for monitoring performance
+
+## Evaluation Metrics:
+- **Primary**: Accuracy, Precision, Recall, F1-Score
+- **Visualization**: Confusion Matrix, Training/Validation curves
+- **Reporting**: Detailed classification report
