@@ -4,7 +4,7 @@
 
 > This is my final project to obtain my Bachelor of Computer Science. The architecture was trained & tested on Google Colab with T4 GPU using UNSW-NB15 dataset.
 > 
-> The article for this research has been published on *«it's going to be published in August 2025»*
+> The article for this research has been published on [this link](https://tunasbangsa.ac.id/ejurnal/index.php/jurasik/article/view/895)
 
 ## 1. INITIALIZATION AND IMPORTS
 ```
